@@ -6,6 +6,7 @@ Fragment ise Activity’ler içerinde bulunan ana activity’e bağlı kendine h
 Activity’ler genelde sabit bir tasarımın olduğu ekranlarda kullanılıyorken fragment’lar ise tasarımın etkileşimle değişebildiği birbirine benzer alanların bulunduğu tasarımlarda  kullanılmaktadır.
  
 Fragment eklemenin 2 farklı yolu mevcuttur.
+
 1-Statik (Java)
 2-Dinamik (Xml İçerisinden)  
 
@@ -20,5 +21,5 @@ Xml ile Fragment eklendiğinde ise herhangi bir ekleme çıkarma işlemi yapıla
 Xml ile eklenen fragmentA ve fragmentB fragment’lara bağlı onCreateView metodları ile çizdirilirken, 
 Java ile eklenen fragmentC’nin çizdirilmesi Mavi ile işaretli ana Activity’nin onCreate metodunun çalışmasından sonra tamamlanmakta.
 Bu sebeple Xml üzerinden eklenen fragmentlar  java ile eklenen fragment’lara göre öncelikli olarak çalışır.
-![alt text](https://github.com/gokankorkmaz/ActivityFragmentLifeCycle/tree/GokhanKorkmaz/app/src/main/res/drawable/dikey.png)
-![alt text](https://github.com/gokankorkmaz/ActivityFragmentLifeCycle/tree/GokhanKorkmaz/app/src/main/res/drawable/yatay.png)
+![alt text](https://github.com/gokankorkmaz/ActivityFragmentLifeCycle/blob/GokhanKorkmaz/app/src/main/res/drawable/dikey.png)
+![alt text](https://github.com/gokankorkmaz/ActivityFragmentLifeCycle/blob/GokhanKorkmaz/app/src/main/res/drawable/yatay.png)
