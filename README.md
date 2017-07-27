@@ -15,7 +15,7 @@ Xml ile Fragment eklendiğinde ise herhangi bir ekleme çıkarma işlemi yapıla
 
  Aşağıda 2’si XML (Fragment A, Fragment B) bir tanesi de Java kodu kullanarak Activity’e eklenen 3 Fragment içeren uygulamaya ait loglar bulunmaktadır. Sırasıyla Fragment’ların oluşturulma aşamaları metotların çalışma sırasıyla görülebilmekte.
 
-![alt text](https://github.com/gokankorkmaz/ActivityFragmentLifeCycle/tree/GokhanKorkmaz/app/src/main/res/drawable/yasamdongusu.png)
+![alt text](https://github.com/gokankorkmaz/ActivityFragmentLifeCycle/blob/GokhanKorkmaz/app/src/main/res/drawable/yasamdongusu.png)
  
 Xml ile eklenen fragmentA ve fragmentB fragment’lara bağlı onCreateView metodları ile çizdirilirken, 
 Java ile eklenen fragmentC’nin çizdirilmesi Mavi ile işaretli ana Activity’nin onCreate metodunun çalışmasından sonra tamamlanmakta.
